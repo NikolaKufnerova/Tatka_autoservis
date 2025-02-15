@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/layouts.css">
     <title>Kufas servis</title>
 </head>
 <body>
@@ -23,12 +24,12 @@
     </header>
 
     <main>
-        <div class="main__img">
+        <figure class="main__img">
             <img class="image" src="./img/Prac_main_img_autoservis.jpg" alt="Hlavní obrázek">
-        </div>
-        <div class="main__text">
-            <p><h1>Jsme KuF&S servis, kde řešíme všechny vaše problémy</h1></p>
-        </div>
+            <figcaption class="main__text">
+                <p><h1>Jsme KuF&S servis, kde řešíme všechny vaše problémy</h1></p>
+            </figcaption>
+        </figure>
 
         <div class="novinky__class">
             <div class="nadpis__novinky">
@@ -37,50 +38,52 @@
             <div class="novinky">
                 <figure class="obrazek__novinky">
                     <img class="image" src="./img/Prac_obrazek_novinky.jpg" alt="Tématický obrázek">
+                    <figcaption class="text__novinky">
+                        <p>Nějaký text s novinkami (třeba vánoční provoz, dovolené atd.)</p>
+                    </figcaption>
                 </figure>
-                <figcaption class="text__novinky">
-                    <p>Nějaký text s novinkami (třeba vánoční provoz, dovolené atd.)</p>
-                </figcaption>
 
                 <figure class="obrazek__novinky">
                     <img class="image" src="./img/Prac_obrazek_novinky.jpg" alt="Tématický obrázek">
+                    <figcaption class="text__novinky">
+                        <p>Nějaký text s novinkami (třeba vánoční provoz, dovolené atd.)</p>
+                    </figcaption>
                 </figure>
-                <figcaption class="text__novinky">
-                    <p>Nějaký text s novinkami (třeba vánoční provoz, dovolené atd.)</p>
-                </figcaption>
             </div>
         </div>
     </main>
 
     <footer>
         <div class="footer__footer">
-            <div class="footer__info">
-                <div class="nadpis">
-                    <a href="./Other_sides/kontakt.html">Kde nás najdete</a>
+            <div class="footer__info lokace">
+                <div class="nadpis__footer">
+                    <a href="./Other_sides/kontakt.html"><h3>Kde nás najdete</h3></a>
                 </div>
                 <div class="text__footer">
                     <p>Jablonec nad Nisou</p>
                     <p>Paseky</p>
                     <p>PSČ</p>
-                    <p><a href="#">Mapa</a></p>
+                    <p><a class="mapa" href="#">Mapa</a></p>
                 </div>
             </div>
 
-            <div class="footer__info">
-                <div class="nadpis">
-                    <a href="./Other_sides/kontakt.html">Kontakt</a>
+            <div class="footer__info kontakt">
+                <div class="nadpis__footer">
+                    <a href="./Other_sides/kontakt.html"><h3>Kontakt</h3></a>
                 </div>
                 <div class="text__footer">
                     <p>email@email.com</p>
                     <p>Tel. číslo</p>
                 </div>
             </div>
+        </div>
 
-            <div class="footer__info">
-                <div class="nadpis">
-                    <a href="./Other_sides/kontakt.html">Otevírací doba</a>
+        <div class="footer__footer">
+            <div class="footer__info doba">
+                <div class="nadpis__footer">
+                    <a href="./Other_sides/kontakt.html"><h3 class="h3__doba">Otevírací doba</h3></a>
                 </div>
-                <div class="text__footer">
+                <div class="text__footer doba__text">
                     <div class="work__table">
                         <p>Po - Čt</p> <hr> <p>7:00 - 17:00</p>
                     </div>

@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/layouts.css">
     <title>Kufas servis</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a class="logo__pic" href="../index.html"> </a>
+            <a class="logo__pic" href="../index.html"></a>
         </div>
 
         <nav class="nav">
-            <ul>
-                <li> <a href="./o_nas.html">O nás</a> </li>
-                <li> <a class="selected" href="./cenik.html">Ceník</a> </li>
-                <li> <a href="./kontakt.html">Kontakt</a> </li>
+            <ul class="nav__ul">
+                <li class="nav__li"> <a class="nav__a" href="../Other_sides/o_nas.html">O nás</a> </li>
+                <li class="nav__li selected"> <a class="nav__a" href="../Other_sides/cenik.html">Ceník</a> </li>
+                <li class="nav__li"> <a class="nav__a" href="../Other_sides/kontakt.html">Kontakt</a> </li>
             </ul>
         </nav>
     </header>
@@ -35,33 +37,35 @@
 
     <footer>
         <div class="footer__footer">
-            <div class="footer__info">
-                <div class="nadpis">
-                    <a href="./kontakt.html">Kde nás najdete</a>
+            <div class="footer__info lokace">
+                <div class="nadpis__footer">
+                    <a href="../Other_sides/kontakt.html"><h3>Kde nás najdete</h3></a>
                 </div>
                 <div class="text__footer">
                     <p>Jablonec nad Nisou</p>
                     <p>Paseky</p>
                     <p>PSČ</p>
-                    <p><a href="#">Mapa</a></p>
+                    <p><a class="mapa" href="#">Mapa</a></p>
                 </div>
             </div>
 
-            <div class="footer__info">
-                <div class="nadpis">
-                    <a href="./kontakt.html">Kontakt</a>
+            <div class="footer__info kontakt">
+                <div class="nadpis__footer">
+                    <a href="../Other_sides/kontakt.html"><h3>Kontakt</h3></a>
                 </div>
                 <div class="text__footer">
                     <p>email@email.com</p>
                     <p>Tel. číslo</p>
                 </div>
             </div>
+        </div>
 
-            <div class="footer__info">
-                <div class="nadpis">
-                    <a href="./kontakt.html">Otevírací doba</a>
+        <div class="footer__footer">
+            <div class="footer__info doba">
+                <div class="nadpis__footer">
+                    <a href="../Other_sides/kontakt.html"><h3 class="h3__doba">Otevírací doba</h3></a>
                 </div>
-                <div class="text__footer">
+                <div class="text__footer doba__text">
                     <div class="work__table">
                         <p>Po - Čt</p> <hr> <p>7:00 - 17:00</p>
                     </div>
@@ -70,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="podpis">
                 <p>© 2025 Nikola Küfnerová</p>
             </div>
