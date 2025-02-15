@@ -1,3 +1,5 @@
+/* Index */
+
 .logo__pic{
     display: block;
     width: 350px;
@@ -12,7 +14,7 @@
     background-color: var(--Grey);
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: 45px;
 }
 
 .nav__ul{
@@ -31,7 +33,7 @@
     display: flex;
     background-color: white;
     border-radius: 8px;
-    height: 45px;
+    height: 40px;
     margin: 0;
     align-items: center;
 }
@@ -111,12 +113,14 @@
     'doba doba'
     'nic autor';
     background-color: var(--Grey);
-    margin-top: 10px;
+    opacity: 0.8;
+    margin: 10px 10px;
+    margin-bottom: 0;
 }
 
 .footer__info{
     padding: 1em;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .lokace{
@@ -163,4 +167,60 @@ hr{
 .mapa{
     text-decoration: none;
     color: black;
+}
+
+/* O nás */
+
+.texty{
+    padding: 1em;
+}
+
+/* Ceník */
+
+.cenik__table{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0;
+    padding: 1em;
+    background-color: var(--Grey);
+}
+
+.cinnost{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+}
+
+/* Kontakt */
+
+.main__info{
+    display: grid;
+    grid-template-areas:
+    'kde kont'
+    'otevirani otevirani'
+    'mapa mapa';
+    padding: 1em;
+    font-size: 18px;
+}
+
+.kde{
+    grid-area: kde;
+}
+
+.kont{
+    grid-area: kont;
+}
+
+.otevirani{
+    grid-area: otevirani;
+}
+
+.mapa{
+    margin: 0;
+}
+
+.podpis__kont{
+    text-align: end;
 }
