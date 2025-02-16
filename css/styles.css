@@ -93,6 +93,11 @@
     margin-bottom: 10px;
 }
 
+.obrazek__novinky a{
+    text-decoration: none;
+    color: white;
+}
+
 .text__novinky{
     background-color: var(--DarkGrey);
     opacity: 0.8;
@@ -176,7 +181,6 @@ hr{
 }
 
 .podpis{
-    opacity: 0.5;
     justify-items: flex-end;
     font-size: 8px;
     padding: 1em;
@@ -197,6 +201,31 @@ hr{
 .mapa_{
     text-decoration: none;
     color: black;
+}
+
+/* Novinky */
+
+.text__nov{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    background-color: var(--DarkGrey);
+    color: white;
+    margin: 10px 0;
+}
+
+.img__nov{
+    max-width: 500px;
+}
+
+.text__artic__nov{
+    background-color: var(--Grey);
+    opacity: 0.8;
+    color: black;
+    border-radius: 0 0 8px 8px;
+    height: auto;
+    padding: 2em;
+    text-align: start;
 }
 
 /* O nás */
@@ -233,6 +262,8 @@ hr{
     padding: 1em;
     font-size: 16px;
     justify-content: center;
+    background-color: var(--Grey);
+    margin: 10px 0;
 }
 
 .info{
