@@ -1,0 +1,94 @@
+@media(min-width: 960px){
+    /* Index */
+
+    .nav{
+        height: 60px;
+        font-size: 18px;
+        justify-content: flex-end;
+    }
+
+    .nav__ul{
+        margin: 0 3em;
+    }
+
+    .main__img{
+        margin: 20px 0;
+    }
+
+    .main__text{
+        left: 0;
+        bottom: 40%;
+        width: 50%;
+        height: auto;
+        border-radius: 0 16px 16px 0;
+    }
+
+    .novinky{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .footer__footer{
+        margin-bottom: 0;
+    }
+
+    .footer__doba{
+        margin-top: 0;
+    }
+
+    .footer__info{
+        font-size: 18px;
+    }
+
+    .doba__text{
+        max-width: 550px;
+    }
+
+    .podpis{
+        padding: 0 2em;
+        font-size: 14px;
+    }
+
+    /* O nás */
+
+    .texty{
+        font-size: 22px;
+    }
+
+    /* Ceník */
+
+    .cenik__table{
+        margin: 20px 0;
+    }
+}
+
+@media(min-width: 1200px){
+    /* Kontakt */
+
+    .main__kont{
+        display: grid;
+        grid-template-areas:
+        'kde kont mapa'
+        'otevirani otevirani mapa';
+        margin: 20px 0;
+        padding: 1em;
+    }
+
+    .main__vsechno{
+        background-color: var(--Grey);
+        margin: 0 10px;
+    }
+
+    .info{
+        margin: 0 1em;
+    }
+
+    .mapa{
+        grid-area: mapa;
+    }
+    
+    .podpis__kont{
+        color: white;
+    }
+}
