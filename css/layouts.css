@@ -61,8 +61,22 @@
     }
 
     /* Novinky */
+    .text__nov{
+        justify-self: flex-start;
+    }
 
-    
+    .nad__artic__nov{
+        margin-bottom: 10px;
+    }
+
+    .img__nov{
+        max-width: fit-content;
+    }
+
+    .text__artic__nov{
+        width: auto;
+        margin-top: 10px;
+    }
 
     /* O nás */
 
@@ -84,6 +98,11 @@
 }
 
 @media(min-width: 1200px){
+    /* Novinky */
+    .text__nov{
+        justify-self: center;
+    }
+
     /* Kontakt */
 
     .main__kont{
