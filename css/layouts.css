@@ -23,9 +23,12 @@
 
     .main__img{
         margin: 20px 0;
+        margin-top: 0;
+        opacity: .7;
     }
 
     .main__text{
+        opacity: .9;
         left: 0;
         bottom: 40%;
         width: 50%;
@@ -100,6 +103,14 @@
 @media(min-width: 1200px){
     /* Novinky */
     .text__nov{
+        justify-self: center;
+    }
+
+    /* Ceník */
+
+    .cenik__table{
+        width: 1000px;
+        display: flex;
         justify-self: center;
     }
 
