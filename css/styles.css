@@ -19,7 +19,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     display: flex;
-    background-color: var(--Orange);
+    background-color: var(--Red);
     align-items: center;
     justify-content: center;
     height: 45px;
@@ -42,13 +42,13 @@ body {
 
 .nav__a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 1.5em;
 }
 
 .selected{
     display: flex;
-    background-image: linear-gradient(to top, var(--Red) 30%, transparent);
+    background-image: linear-gradient(to top, var(--Orange) 30%, transparent);
     background-size: 100% 10px;
     background-repeat: no-repeat;
     background-position: 0 100%;
@@ -59,11 +59,11 @@ body {
 }
 
 .main__img{
-    height: 100%;
+    max-height: 600px;
+    overflow: hidden;
     object-fit: fill;
     display: block;
     justify-self: center;
-    margin-top: 10px;
     position: relative;
     margin: 10px auto;
 }
@@ -90,6 +90,7 @@ body {
 
 .main__text h1{
     text-align: center;
+    margin: 0.5em;
 }
 
 .novinky__class{
@@ -100,8 +101,7 @@ body {
 .nadpis__novinky{
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
-    background-color: var(--Orange);
-    color: black;
+    background-color: var(--Red);
     margin-bottom: 10px;
     padding: 0.5em 1em;
     text-align: center;
@@ -110,12 +110,14 @@ body {
 .novinky{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .obrazek__novinky{
     margin: 0 auto;
     position: relative;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .obrazek__novinky:hover{
@@ -129,7 +131,7 @@ body {
 
 .text__novinky{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     background-color: var(--DarkGrey);
     opacity: 0.8;
     text-align: center;
@@ -156,7 +158,7 @@ body {
 
 .nadpis__footer a{
     font-family: 'Outfit', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     color: black;
 }
@@ -178,8 +180,7 @@ body {
     'doba doba';
     background-color: var(--LightGrey);
     color: black;
-    margin: 10px auto;
-    margin-bottom: 0;
+    margin-top: -4em;
 }
 
 .footer__info{
@@ -192,7 +193,7 @@ body {
 
 .text__footer{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .lokace{
@@ -301,30 +302,7 @@ hr{
 
 .text__article{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-}
-
-/* Ceník */
-
-.cenik__table{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin: 10px 0;
-    padding: 1em;
-}
-
-.cenik__table hr{
-    border-top-color: white;
-}
-
-.cinnost{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    font-size: 22px;
+    font-weight: 400;
 }
 
 /* Kontakt */
@@ -380,5 +358,5 @@ hr{
 
 .text__info{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
