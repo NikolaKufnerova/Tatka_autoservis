@@ -46,15 +46,20 @@
     }
     
     .footer__footer{
-        margin-bottom: 0;
+        grid-template-areas:
+        'lokace kontakt'
+        'lokace kontakt';
     }
-
     .footer__info{
         font-size: 18px;
     }
 
     .doba__text{
         max-width: 550px;
+    }
+
+    .kontakt{
+        margin: 0;
     }
 
     .podpis{
